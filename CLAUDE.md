@@ -5,7 +5,7 @@
 
 ## 기술 스택 / 컨벤션
 - C++20, Visual Studio(MSBuild, .vcxproj), gmock(NuGet)
-- 코드 컨벤션은 상위 `Semiconductor` 폴더의 `CODE_CONVENTION.md`를 따른다.
+- 코드 컨벤션은 `CODE_CONVENTION.md`를 따른다.
   - 클래스: PascalCase / 메서드: camelCase / 변수: snake_case
   - public > protected > private 순서, 메서드 선언 후 멤버변수
   - 한 줄 조건문은 중괄호 없이 한 줄로 작성
